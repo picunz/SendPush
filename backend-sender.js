@@ -36,5 +36,7 @@ let pushData = JSON.stringify({
         "message_id": "your_internal_unique_message_id_for_tracking"
     }
 });
+
+console.log("Push not ach");
 webpush.sendNotification(pushSubscription, pushData);
 
